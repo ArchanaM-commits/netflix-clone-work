@@ -9,6 +9,9 @@
     }
   ],
   "rewrites": [
-    { "source": "/profile-details", "destination": "/profile-details.html" }
+    {
+      "source": "/(.*)",
+      "destination": "/"
+    }
   ]
 }
